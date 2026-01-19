@@ -94,6 +94,13 @@ const bill_value = 301;
 const tip = bill_value >=50 && bill_value <=300 ? bill_value * 0.15 : bill_value*0.2;
 
 console.log( bill_value + tip ); 
-console.log(testing);
+ 
+const age = 23; 
 
+age >=18 && age <= 65 ? console.log("u r eligible to work") : console.log("u r not eligible to work");
 
+const bill_value = 40;
+
+const tip = bill_value >=50 && bill_value <=300 ? bill_value * 0.15 : bill_value*0.2;
+console.log(`the tip is ${tip} bill value is ${bill_value} total value is ${bill_value + tip}`);
+console.log(bill_value + tip + " is the total value including tip");
