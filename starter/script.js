@@ -89,18 +89,71 @@ break;
 
 */
 
-const bill_value = 301;  
+// const bill_value = 301;  
 
-const tip = bill_value >=50 && bill_value <=300 ? bill_value * 0.15 : bill_value*0.2;
+// const tip = bill_value >=50 && bill_value <=300 ? bill_value * 0.15 : bill_value*0.2;
 
-console.log( bill_value + tip ); 
+// console.log( bill_value + tip ); 
  
-const age = 23; 
+// const age = 23; 
 
-age >=18 && age <= 65 ? console.log("u r eligible to work") : console.log("u r not eligible to work");
+// age >=18 && age <= 65 ? console.log("u r eligible to work") : console.log("u r not eligible to work");
 
-const bill_value = 40;
+// const bill_value = 40;
 
-const tip = bill_value >=50 && bill_value <=300 ? bill_value * 0.15 : bill_value*0.2;
-console.log(`the tip is ${tip} bill value is ${bill_value} total value is ${bill_value + tip}`);
-console.log(bill_value + tip + " is the total value including tip");
+// const tip = bill_value >=50 && bill_value <=300 ? bill_value * 0.15 : bill_value*0.2;
+// console.log(`the tip is ${tip} bill value is ${bill_value} total value is ${bill_value + tip}`);
+// console.log(bill_value + tip + " is the total value including tip");
+
+
+// let hasdriverslicense = false;
+// const passTest = true;
+ 
+// if (passTest) hasdriverslicense = true;
+// if (hasdriverslicense) console.log('i can drive :D '); else console.log('i cant drive :(');
+
+
+// function fruitProcessor(apples, oranges) {
+//    console.log(apples, oranges);
+//     const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+//     return juice;
+
+// }
+// const appleJuice = fruitProcessor(5, 0);
+// console.log(appleJuice);  
+
+//  function calcage(x){
+//     return 2026 - x ;
+//  }
+// const age = calcage(2005);
+// console.log(age);
+
+// const agee = function (x){
+//     return 2026 - x ;
+// }
+// console.log(agee (2005));
+
+//  'use strict';
+//  const calcage1 = birthyear => {
+
+// const age = 2026 - birthyear;
+
+// const retirement = 65 - age;
+
+// return retirement;
+
+//  }
+//    console.log(calcage1(2005))
+
+
+
+ function DiscribeCountry(country,population,capitalCity) {
+  const discribe = `${country} has ${population} million people and its capital city is ${capitalCity}`;
+return discribe;
+
+ }
+const port = DiscribeCountry('portgal' , 5, 'Lisbon');
+const egy = DiscribeCountry('egypt', 100 , 'cairo');
+const fin = DiscribeCountry('finland ' , 6 , 'helsniki');
+
+console.log(port , egy , fin);
